@@ -1,10 +1,10 @@
-name: pythonsampleproject
+name: pulumiproject
 runtime:
   name: python
   options:
     toolchain: pip
     virtualenv: venv
-description: pythonsampleproject
+description: pulumiproject
 config:
   pulumi:tags:
     value:
