@@ -1,0 +1,15 @@
+encryptionsalt: v1:cOqTgNjPaUM=:v1:5dwTwuTHzNoyoFU5:PM9xpRCTJYsY2cbkx/vSw18of/cOzw==
+config:
+  aws:region: eu-north-1
+root@ip-172-31-26-100:~/python# cat Pulumi.yaml
+name: pythonsampleproject
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: pythonsampleproject
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
